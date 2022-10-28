@@ -91,7 +91,7 @@ function SeoForHomepage() {
     <Seo
       type="homepage"
       data={{
-        title: name,
+        title: Oxygen?.env?.STORE_NAME || "Hydra Core",
         description,
         titleTemplate: '%s · Powered by Hydrogen',
       }}
