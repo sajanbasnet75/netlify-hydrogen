@@ -7,8 +7,8 @@ import {parseMenu} from '~/lib/utils';
 
 const HEADER_MENU_HANDLE = 'main-menu';
 const FOOTER_MENU_HANDLE = 'footer';
-const SHOP_NAME_FALLBACK = 'Hydrogen';
-// const SHOP_NAME = Oxygen?.env?.STORE_NAME || "Hydra Core"; 
+// const SHOP_NAME = Oxygen?.env?.STORE_NAME || "Hydra Core";
+const SHOP_NAME_FALLBACK = Oxygen?.env?.STORE_NAME || "Hydra Core";
 /**
  * A server component that defines a structure and organization of a page that can be used in different parts of the Hydrogen app
  */
