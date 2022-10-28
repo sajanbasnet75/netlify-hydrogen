@@ -18,7 +18,7 @@ export function Footer({menu}) {
       : menu?.items?.length + 1
     : [];
 
-  const SHOP_NAME = Oxygen?.env?.STORE_NAME || "Hydra Core"; 
+  // const SHOP_NAME = Oxygen?.env?.STORE_NAME || "Hydra Core"; 
 
   return (
     <Section
@@ -39,7 +39,7 @@ export function Footer({menu}) {
       <div
         className={`self-end pt-8 opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
       >
-        &copy; {new Date().getFullYear() + ' ' + SHOP_NAME}
+        &copy; {new Date().getFullYear() + ' '}
       </div>
     </Section>
   );
